@@ -1,0 +1,10 @@
+{
+  "name": "calculadora-web",
+  "version": "1.0.0",
+  "description": "Calculadora web estática sin dependencias",
+  "private": true,
+  "scripts": {
+    "test": "node --test",
+    "start": "python3 -m http.server 8000"
+  }
+}
