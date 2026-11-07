@@ -1,9 +1,12 @@
 {
  "intentos": {
-  "montar": 1,
-  "investigar:2026-46": 1
+  "montar": 3
  },
- "ultima_ronda": "2026-11-07T09:02:55",
+ "ultima_ronda": "2026-11-07T09:10:54",
  "avisos": [],
- "log": []
+ "log": [
+  "2026-11-07 09:09 #0003 aprobado automáticamente",
+  "2026-11-07 09:09 #0002 aprobado automáticamente",
+  "2026-11-07 09:09 #0001 aprobado automáticamente"
+ ]
 }
