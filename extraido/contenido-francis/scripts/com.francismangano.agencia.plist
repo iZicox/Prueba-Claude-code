@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Programa la agencia en el Mac: todos los días a las 08:10 y a las 19:40.
+  Si el Mac estaba dormido a esa hora, se ejecuta al despertar.
+  Instalación (desde la carpeta del proyecto), ver README.md:
+    sed "s#RUTA_DEL_PROYECTO#$(pwd)#g" scripts/com.francismangano.agencia.plist > ~/Library/LaunchAgents/com.francismangano.agencia.plist
+    launchctl load ~/Library/LaunchAgents/com.francismangano.agencia.plist
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.francismangano.agencia</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>RUTA_DEL_PROYECTO/scripts/ejecutar.sh</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>RUTA_DEL_PROYECTO</string>
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict>
+      <key>Hour</key><integer>8</integer>
+      <key>Minute</key><integer>10</integer>
+    </dict>
+    <dict>
+      <key>Hour</key><integer>19</integer>
+      <key>Minute</key><integer>40</integer>
+    </dict>
+  </array>
+  <key>StandardOutPath</key>
+  <string>RUTA_DEL_PROYECTO/logs/launchd.log</string>
+  <key>StandardErrorPath</key>
+  <string>RUTA_DEL_PROYECTO/logs/launchd.log</string>
+</dict>
+</plist>

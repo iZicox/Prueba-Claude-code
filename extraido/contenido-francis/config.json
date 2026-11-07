@@ -1,0 +1,24 @@
+{
+  "_nota": "Configuración de la agencia automática. La lee scripts/pipeline.py.",
+
+  "aprobacion": "automatica",
+  "_aprobacion": "automatica = el revisor aprueba los guiones sin esperar a Francis. francis = Francis aprueba (entrada/aprobados.txt o /aprobar).",
+
+  "reparto": [
+    {"dia": "lunes",     "pilar": "tecnica",  "publico": "manicuristas", "nota": "alcance"},
+    {"dia": "martes",    "pilar": "duran",    "publico": "clientas",     "nota": "citas"},
+    {"dia": "miercoles", "pilar": "negocio",  "publico": "manicuristas", "nota": "contactos, con palabra clave"},
+    {"dia": "jueves",    "pilar": "tecnica",  "publico": "manicuristas", "nota": "o actualidad si hay noticia; antes y después de alumna si hay formación en 3 semanas o menos"},
+    {"dia": "sabado",    "pilar": "camino",   "publico": "ambos",        "nota": "confianza"}
+  ],
+  "carruseles_por_semana": 2,
+  "ideas_por_investigacion": 15,
+
+  "max_revisiones": 3,
+  "_max_revisiones": "Rondas de revisión de un guion o de un paquete antes de pararlo y avisar a Francis.",
+  "max_reintentos_accion": 3,
+  "_max_reintentos_accion": "Veces que se repite una misma acción que no avanza antes de bloquearla.",
+
+  "formaciones_proximas": [],
+  "_formaciones_proximas": "Fechas AAAA-MM-DD de próximas formaciones. Las 3 semanas anteriores, el jueves pasa a Antes y después de alumna."
+}

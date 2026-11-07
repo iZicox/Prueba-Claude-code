@@ -1,0 +1,51 @@
+{
+  "_nota": "PROVISIONAL. Cambia colores, fuentes y logo por los reales de Francis. Vídeos y carruseles leen este archivo.",
+  "nombre": "Francis Mangano",
+  "usuario": "@francismangano",
+  "hashtag_propio": "#AprendeConFrancisMangano",
+  "firma": "Brilla y sueña como una estrella",
+  "colores": {
+    "fondo": "#F7EFEA",
+    "fondo_oscuro": "#1E1A1A",
+    "texto": "#1E1A1A",
+    "texto_claro": "#FFFFFF",
+    "acento": "#C2577A",
+    "acento_suave": "#EBC9D3",
+    "dorado": "#B8925A"
+  },
+  "fuentes": {
+    "titulos": "Fraunces",
+    "texto": "DM Sans",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600;9..144,800&display=swap"
+  },
+  "logo": "assets/logo.png",
+  "carrusel": {
+    "ancho": 1080,
+    "alto": 1350,
+    "margen": 88,
+    "titulo_px": 92,
+    "texto_px": 44,
+    "max_palabras_por_slide": 35
+  },
+  "video": {
+    "ancho": 1080,
+    "alto": 1920,
+    "fps": 30,
+    "subtitulos": {
+      "fuente": "DM Sans",
+      "peso": 700,
+      "tamano_px": 72,
+      "color": "#FFFFFF",
+      "color_palabra_activa": "#EBC9D3",
+      "contorno": "#1E1A1A",
+      "posicion_y": 0.68,
+      "max_palabras_por_linea": 4
+    },
+    "zona_segura": {
+      "arriba_px": 220,
+      "abajo_px": 420,
+      "derecha_px": 140
+    },
+    "audio_lufs": -14
+  }
+}
